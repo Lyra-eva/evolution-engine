@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: evolution-engine
+Version: 2.0.0
+Summary: 进化引擎 v2.0 - 热插拔 AI 进化系统
+Home-page: https://github.com/openclaw/evolution-engine
+Author: Lyra-eva
+Author-email: admin@evolution-engine.local
+License: UNKNOWN
+Description: # 进化引擎 (Evolution Engine)
+        
+        🧠 热插拔 AI 进化系统
+        
+        ## 安装
+        
+        ```bash
+        pip install -e .
+        ```
+        
+        ## 使用
+        
+        ```python
+        from evolution_engine import EvolutionEngine
+        engine = EvolutionEngine()
+        engine.enable()
+        ```
+        
+        ## 许可证
+        
+        MIT License
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: full
